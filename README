@@ -1,0 +1,27 @@
+﻿                       Qt5GuiTune
+
+         (c) 2018 by John Warriner  (laojohnnylu@gmail.com)
+
+                       ***********
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published
+    by the Free Software Foundation; either version 2 of the License,
+    or (at your option) any later version. See file LICENSE. Per the
+    LICENSE, you are free to copy, use, and modify as you like.
+
+   Qt5GuiTune is a port to Qt5 of a program (QtGuitune, GtkGuitune,
+K2Guitune) written by Florian Berger (1999) and ported to KDE3 by Reinier
+Lamers (2003).   Guitune is a really neat little tuner/oscilloscope
+with some interesting mathematical dsp code.  I ported it to Qt5 for a
+couple reasons: 1) to bring it up-to-date in terms of gui framework; 2)
+to use as a basis for another project I have in mind.
+
+   The application's GUI has been modified to be built on the QtCreator
+framework, again for a couple reasons: 1) to make it more portable,
+able to be built on any machine which supports QtCreator; 2) I wanted
+to get familiar with the Qt tool to use on my next project.
+
+I’m a retired programmer whose skills are pretty rusty. But if you have
+any questions or comments, please feel free to contact me.  I’ll do
+my best to address them.

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AudioDialog</class>
+ <widget class="QDialog" name="AudioDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Audio Settings</string>
+  </property>
+  <widget class="QLabel" name="ossDeviceLabel">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>200</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OSS Device</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="alsaDeviceLabel">
+   <property name="geometry">
+    <rect>
+     <x>62</x>
+     <y>250</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ALSA Device</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ossDeviceLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>172</x>
+     <y>190</y>
+     <width>201</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="alsaDeviceLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>240</y>
+     <width>201</width>
+     <height>36</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>30</y>
+     <width>291</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Sound Input</string>
+   </property>
+   <widget class="QRadioButton" name="artsRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>30</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>aRts</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="ossRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>30</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OSS</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="alsaRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ALSA</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="jackRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>60</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>JACK</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="autoDetectRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>90</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Auto Detect</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

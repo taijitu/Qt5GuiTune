@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TuningsDialog</class>
+ <widget class="QDialog" name="TuningsDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>229</width>
+    <height>286</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Tunings</string>
+  </property>
+  <widget class="QGroupBox" name="tuningPitchGroup">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>40</y>
+     <width>141</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="normalRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Normal</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="wienRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wien</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="physicalRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Physical</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="Line" name="line">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>170</y>
+     <width>118</width>
+     <height>3</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="tuningModeGroup">
+   <property name="geometry">
+    <rect>
+     <x>39</x>
+     <y>190</y>
+     <width>141</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QRadioButton" name="equidistantRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Equidistant</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="naturalRadioButton">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>50</y>
+      <width>109</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Natural</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
